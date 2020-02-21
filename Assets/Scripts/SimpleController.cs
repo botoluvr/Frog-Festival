@@ -20,12 +20,12 @@ public class SimpleController : MonoBehaviour
     {
         if (turn == true)
         {
-            myRigidBody.velocity = new Vector2(0, movespeed);
+            myRigidBody.velocity = new Vector2(-movespeed, 0);
         }
 
         if (turn == false)
         {
-            myRigidBody.velocity = new Vector2(-movespeed, 0);
+            myRigidBody.velocity = new Vector2(0, movespeed);
         }
     }
 

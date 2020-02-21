@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class frogcontroller : MonoBehaviour {
+public class toadcontroller : MonoBehaviour {
 
 	public float moveSpeed;
 	private bool canMove;

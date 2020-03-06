@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d05b974144acd2f4d8343c0623133f0e
+guid: 687d47111ef723c419cdf186f0fa635c
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -17,6 +17,27 @@ TextureImporter:
   - first:
       213: -1937967192313276657
     second: background
+  - first:
+      213: 7173691094930749667
+    second: frog_bump1
+  - first:
+      213: -403731518056013894
+    second: frog_bump2
+  - first:
+      213: 819021052716436809
+    second: frog_bump3
+  - first:
+      213: 2886707900310754132
+    second: background 2
+  - first:
+      213: -437696733196950151
+    second: mail_button
+  - first:
+      213: -1937967192313276657
+    second: frog_button
+  - first:
+      213: 7621893642013517013
+    second: shop_button
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -118,10 +139,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1880
         y: 3230
-        width: 250
-        height: 297
+        width: 259
+        height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,12 +158,12 @@ TextureImporter:
       name: frog_jump2
       rect:
         serializedVersion: 2
-        x: 2190
-        y: 3154
-        width: 252
-        height: 373
+        x: 2178
+        y: 3133
+        width: 274
+        height: 410
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,11 +180,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2504
-        y: 3079
-        width: 221
-        height: 448
+        y: 3039
+        width: 272
+        height: 549
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,7 +205,7 @@ TextureImporter:
         width: 229
         height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,12 +221,12 @@ TextureImporter:
       name: background
       rect:
         serializedVersion: 2
-        x: 118
-        y: 2818
+        x: 11
+        y: 2883
         width: 704
-        height: 704
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51291966}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,6 +234,153 @@ TextureImporter:
       bones: []
       spriteID: f5d920654523acf44a6438c528d2ba9b
       internalID: -1937967192313276657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump1
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 2744
+        width: 263
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a066a6aebbd9af646978a0151c9545b1
+      internalID: 7173691094930749667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump2
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 2737
+        width: 302
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd59a556620d694baa45d345919e6e1
+      internalID: -403731518056013894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump3
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 2315
+        width: 327
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849742a2dfdc4654687c443654279f21
+      internalID: 819021052716436809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2179
+        width: 694
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b50f087fb5b54e995ee12f8a3fbd0
+      internalID: 2886707900310754132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mail_button
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 353
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de54632dd4288343a628bd3f1c5e84b
+      internalID: -437696733196950151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_button
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 18
+        width: 353
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe9f342074e1fb4eb9df694918a511d
+      internalID: -1937967192313276657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_button
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 17
+        width: 354
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128ddba0728866548b6fc4475f5acb9b
+      internalID: 7621893642013517013
       vertices: []
       indices: 
       edges: []

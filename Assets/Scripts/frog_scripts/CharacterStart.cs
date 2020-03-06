@@ -7,6 +7,7 @@ public class CharacterStart : MonoBehaviour
 {
     public Animator anim;
     public bool HasTurn;
+    public bool StartJump;
     public SimpleController SC;
     public GameObject CVC;
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class CharacterStart : MonoBehaviour
         
     }
 
+    //Activates the camera follow
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -29,11 +31,22 @@ public class CharacterStart : MonoBehaviour
         }
     }
 
+    //Turns on simple controller script when you click/tap
     public void CharacterBegin()
     {
         SC.enabled = true;
     }
 
+    public void FrogStart()
+    {
+        if (StartJump == false)
+        {
+            anim.SetBool("start", true);
+            StartJump = true;
+        }
+    }
+
+    //Alternates animations so that the frog will turn
     public void CharacterTurn()
     {
         if (HasTurn == false)

@@ -1162,6 +1162,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1856549907}
+        m_MethodName: FrogStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1634650321
 Transform:
   m_ObjectHideFlags: 0
@@ -1234,6 +1245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 903103473}
   HasTurn: 1
+  StartJump: 0
   SC: {fileID: 903103468}
   CVC: {fileID: 1995999291}
 --- !u!4 &1856549908

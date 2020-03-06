@@ -65,6 +65,16 @@ public class PlayerController : MonoBehaviour {
     public bool joystick;
     public LeftJoystick leftJoystick;
     public Vector3 leftJoystickInput;
+    public bool moreGravity;
+    public bool turn;
+    public bool rhythm;
+    public bool runner;
+    public float boosttime;
+    public float maxboostime;
+    public Image boostbar;
+    public float boostSpeed;
+    public bool doodle;
+    public float jumpPower;
 
 
 	// Use this for initialization
@@ -88,6 +98,60 @@ public class PlayerController : MonoBehaviour {
     void Update()
     {
 
+        if (doodle)
+        {
+            transform.Translate(Input.acceleration.x, 0, 0);
+
+            if (isGrounded)
+            {
+                myRigidBody.AddForce(transform.up * jumpPower);
+                
+            }
+      
+        }
+
+        if (rhythm == true)
+        {
+            if (turn == true)
+            {
+                myRigidBody.velocity = new Vector2(0, moveSpeed);
+            }
+
+            if (turn == false)
+            {
+                myRigidBody.velocity = new Vector2(moveSpeed, 0);
+            }
+        }
+
+        if(runner == true)
+        {
+            myRigidBody.velocity = new Vector2(moveSpeed, myRigidBody.velocity.y);
+            boostbar.fillAmount = (boosttime / maxboostime);
+
+
+            if (CnInputManager.GetButton ("Boost"))
+            {
+               
+                boosttime -= Time.deltaTime;
+          
+                if (boosttime > 0)
+                {
+                    moveSpeed = boostSpeed;
+                }
+                else
+                {
+                    moveSpeed = 5;
+                }
+            }
+
+         if(CnInputManager.GetButtonUp ("Boost"))
+            {
+                moveSpeed = 5;
+            }
+
+            
+        }
+ 
         step = changespeed * Time.deltaTime;
 
         //myRigidBody.velocity = new Vector3(moveSpeed, myRigidBody.velocity.y, 0f);
@@ -308,7 +372,33 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-        public void Jump()
+    //WE WILL ADD THIS NEW
+    void FixedUpdate()
+    {
+        if( moreGravity == true)
+        {
+            Physics2D.gravity = new Vector2(0, -19.8f);
+        }
+
+        else
+        {
+            Physics2D.gravity = new Vector2(0, -9.8f);
+        }
+   
+    }
+
+    public void turnbird()
+    {
+        if (turn == true)
+        {
+            turn = false;
+        }
+        else if (turn == false)
+        {
+            turn = true;
+        }
+    }
+    public void Jump()
     {
         //if (isGrounded)
         //{

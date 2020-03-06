@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95c23da60184fa4db6c25842aa1bb5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leveltoLoad: Frog_Song1
+  leveltoLoad: Frog_demolvl
 --- !u!4 &1065816898
 Transform:
   m_ObjectHideFlags: 0

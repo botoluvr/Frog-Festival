@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 7d8b8ad71bec39340a8a26afa991d79e
+  - enabled: 1
+    path: Assets/Scenes/Frog_scenes/Frog_demolvl.unity
+    guid: 1d11ae3890083734fa7b77d37bc48a61
+  - enabled: 1
+    path: Assets/Scenes/Frog_scenes/Frog_Main_menu.unity
+    guid: 3d1cb3ef293650c4a88c2649e8f5ed61
   m_configObjects: {}

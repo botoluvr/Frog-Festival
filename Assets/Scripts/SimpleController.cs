@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 //simple controller conttrols direction character moves, change to up or left with taps
 
 public class SimpleController : MonoBehaviour
@@ -21,24 +20,13 @@ public class SimpleController : MonoBehaviour
     {
         if (turn == true)
         {
-            myRigidBody.velocity = new Vector2(0, movespeed);
+            myRigidBody.velocity = new Vector2(-movespeed, 0);
         }
 
         if (turn == false)
         {
-            myRigidBody.velocity = new Vector2(-movespeed, 0);
+            myRigidBody.velocity = new Vector2(0, movespeed);
         }
-
-        //new code HOW MAKE FROG ROTATE???
-        Vector3 moveDirection = gameObject.transform.position;
-        if (moveDirection != Vector3.zero)
-        {
-            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-       }
-
-      
-
     }
 
     public void turnfrog()
@@ -52,5 +40,4 @@ public class SimpleController : MonoBehaviour
             turn = true;
         }
     }
-
 }

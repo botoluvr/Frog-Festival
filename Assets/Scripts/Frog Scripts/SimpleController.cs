@@ -27,6 +27,13 @@ public class SimpleController : MonoBehaviour
         {
             myRigidBody.velocity = new Vector2(-movespeed, 0);
         }
+
+        Vector3 moveDirection = gameObject.transform.position;
+        if (moveDirection != Vector3.zero)
+        {
+            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
     }
 
     public void turnfrog()
@@ -40,4 +47,5 @@ public class SimpleController : MonoBehaviour
             turn = true;
         }
     }
+
 }

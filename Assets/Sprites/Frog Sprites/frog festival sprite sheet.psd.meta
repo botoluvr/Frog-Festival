@@ -38,6 +38,12 @@ TextureImporter:
   - first:
       213: 7621893642013517013
     second: shop_button
+  - first:
+      213: 3932622826517397956
+    second: play button
+  - first:
+      213: 2448536072336181495
+    second: home_button
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -242,9 +248,9 @@ TextureImporter:
       name: frog_bump1
       rect:
         serializedVersion: 2
-        x: 1563
-        y: 2744
-        width: 263
+        x: 1829
+        y: 2620
+        width: 274
         height: 408
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -263,9 +269,9 @@ TextureImporter:
       name: frog_bump2
       rect:
         serializedVersion: 2
-        x: 1866
-        y: 2737
-        width: 302
+        x: 2144
+        y: 2620
+        width: 310
         height: 382
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -284,10 +290,10 @@ TextureImporter:
       name: frog_bump3
       rect:
         serializedVersion: 2
-        x: 1537
-        y: 2315
-        width: 327
-        height: 381
+        x: 1757
+        y: 2191
+        width: 344
+        height: 407
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,6 +387,48 @@ TextureImporter:
       bones: []
       spriteID: 128ddba0728866548b6fc4475f5acb9b
       internalID: 7621893642013517013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play button
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 835
+        width: 1036
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbce4eea71f57d441874a707db08efd8
+      internalID: 3932622826517397956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_button
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 57
+        width: 285
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e0e82223985084692770f7f7ef4030
+      internalID: 2448536072336181495
       vertices: []
       indices: 
       edges: []

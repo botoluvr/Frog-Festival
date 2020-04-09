@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Frog_scenes/Frog_demolvl.unity
     guid: 1d11ae3890083734fa7b77d37bc48a61
   - enabled: 1
-    path: Assets/Scenes/Frog_scenes/Frog_Main_menu.unity
+    path: Assets/Scenes/Frog_scenes/Frog_Main_Menu.unity
     guid: 3d1cb3ef293650c4a88c2649e8f5ed61
+  - enabled: 1
+    path: Assets/Scenes/Frog_scenes/Frog_Roster.unity
+    guid: 186619cf0f2d68244b2075f6ad180c22
+  - enabled: 1
+    path: Assets/Scenes/Frog_scenes/Frog_Shop.unity
+    guid: 5f14df3cf45d9db4c9bfdcf4bcf3f688
+  - enabled: 1
+    path: Assets/Scenes/Frog_scenes/Frog_SongMenu.unity
+    guid: 5c7713ce88f6b6c458be26d01b0b2404
   m_configObjects: {}

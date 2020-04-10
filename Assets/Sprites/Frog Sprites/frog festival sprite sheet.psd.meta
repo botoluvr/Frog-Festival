@@ -59,6 +59,12 @@ TextureImporter:
   - first:
       213: 9213535168497733873
     second: Temp.Checkpoint
+  - first:
+      213: 3757601296436100984
+    second: pink_frog
+  - first:
+      213: 2317138849345682547
+    second: gold
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -541,7 +547,7 @@ TextureImporter:
         width: 271
         height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,6 +555,48 @@ TextureImporter:
       bones: []
       spriteID: cb611052dd5a1e042a210862d26c54f5
       internalID: 9213535168497733873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink_frog
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 3240
+        width: 226
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446f50a28aed88946bdfc2bb7d889bbb
+      internalID: 3757601296436100984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 3275
+        width: 240
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b59eb2f59266104d837e720ac2cde5d
+      internalID: 2317138849345682547
       vertices: []
       indices: 
       edges: []

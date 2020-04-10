@@ -25,7 +25,7 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        goldCount = PlayerPrefs.GetInt ("Gold") //for saving gold between sessions
+        goldCount = PlayerPrefs.GetInt("Gold"); //for saving gold between sessions
     }
 
     // Update is called once per frame
@@ -33,18 +33,50 @@ public class MenuManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("Gold", goldCount); //for saving gold between sessions
 
-        goldText.text = "Gold:" + goldCount;
+        goldText.text = "" + goldCount;
         pinkFrog = PlayerPrefs.GetInt("pinkFrogSkin");
 
         if (pinkFrog == 1)
         {
-            inventoryPFrog.SetActive(true) //turns on the skins button in our inventory/roster
+            inventoryPFrog.SetActive(true); //turns on the skins button in our inventory/roster
         }
 
         if (changePFrog == true)
         {
+            pinkFrogSkin.SetActive(true); //lets us see the skin
+        }
+
+        if (changePFrog == false)
+        {
+            pinkFrogSkin.SetActive(false); //goes back to default skin
+        }
+
+        if (goldCount >= 5 && ownPFrog == false) //if we have enough gold and didnt but the skin yet
+        {
+            shopPFrog.interactable = true; //button is now clickable
 
         }
 
+
+    }
+
+    public void BuyPFrog()
+    {
+        goldCount -= 1;
+        PlayerPrefs.SetInt("pinkFrog", 1);
+        shopPFrog.interactable = false;
+        ownPFrog = true;
+    }
+
+    public void WearPFrog()
+    {
+        changePFrog = true;
+    }
+
+    public void reset()
+    {
+        PlayerPrefs.SetInt("pinkFrog", 0);
+        inventoryPFrog.SetActive(false);
+        changePFrog = false;
     }
 }

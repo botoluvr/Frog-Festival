@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 687d47111ef723c419cdf186f0fa635c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8780536783613207809
+    second: frog_jump1
+  - first:
+      213: -190969082329203125
+    second: frog_jump2
+  - first:
+      213: 1360963516852941151
+    second: frog_jump3
+  - first:
+      213: -6050896356269333694
+    second: Frog_still
+  - first:
+      213: -1937967192313276657
+    second: background
+  - first:
+      213: 7173691094930749667
+    second: frog_bump1
+  - first:
+      213: -403731518056013894
+    second: frog_bump2
+  - first:
+      213: 819021052716436809
+    second: frog_bump3
+  - first:
+      213: 2886707900310754132
+    second: background 2
+  - first:
+      213: -437696733196950151
+    second: mail_button
+  - first:
+      213: -1937967192313276657
+    second: frog_button
+  - first:
+      213: 7621893642013517013
+    second: shop_button
+  - first:
+      213: 3932622826517397956
+    second: play button
+  - first:
+      213: 2448536072336181495
+    second: home_button
+  - first:
+      213: -3991111157999970882
+    second: home_frog
+  - first:
+      213: -1937967192313276657
+    second: Great
+  - first:
+      213: 549759136614228591
+    second: Perfect
+  - first:
+      213: -7395262055697592901
+    second: LilySprite
+  - first:
+      213: 9213535168497733873
+    second: Temp.Checkpoint
+  - first:
+      213: 3757601296436100984
+    second: pink_frog
+  - first:
+      213: 2317138849345682547
+    second: gold
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frog_jump1
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3230
+        width: 259
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76344de9fa10daf4b870b07c7500055f
+      internalID: -8780536783613207809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_jump2
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 3133
+        width: 274
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b4ff73782722547a3e1047a4a9201e
+      internalID: -190969082329203125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_jump3
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 3039
+        width: 272
+        height: 549
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b3e587cb5985245bf9e7cb3ed55b39
+      internalID: 1360963516852941151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frog_still
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3241
+        width: 229
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c8410a507df8542a019a57c891d300
+      internalID: -6050896356269333694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3223
+        width: 300
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51291966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d920654523acf44a6438c528d2ba9b
+      internalID: -1937967192313276657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump1
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 2620
+        width: 274
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a066a6aebbd9af646978a0151c9545b1
+      internalID: 7173691094930749667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump2
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2620
+        width: 310
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd59a556620d694baa45d345919e6e1
+      internalID: -403731518056013894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump3
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 2191
+        width: 344
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849742a2dfdc4654687c443654279f21
+      internalID: 819021052716436809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2844
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b50f087fb5b54e995ee12f8a3fbd0
+      internalID: 2886707900310754132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mail_button
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 353
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de54632dd4288343a628bd3f1c5e84b
+      internalID: -437696733196950151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_button
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 18
+        width: 353
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe9f342074e1fb4eb9df694918a511d
+      internalID: -1937967192313276657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_button
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 17
+        width: 354
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128ddba0728866548b6fc4475f5acb9b
+      internalID: 7621893642013517013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play button
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 835
+        width: 1036
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbce4eea71f57d441874a707db08efd8
+      internalID: 3932622826517397956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_button
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 57
+        width: 285
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e0e82223985084692770f7f7ef4030
+      internalID: 2448536072336181495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_frog
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1263
+        width: 461
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ebb064eb203eb43968877a3d56ef85
+      internalID: -3991111157999970882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2489
+        width: 741
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490655bb2cb14148b427248f5b3c874
+      internalID: -1937967192313276657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perfect
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2221
+        width: 1016
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0419d6d6b98e67b42aed6f48065d9aaf
+      internalID: 549759136614228591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 1670
+        width: 281
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f50295ee57d504daaffaf8cb705000
+      internalID: -7395262055697592901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp.Checkpoint
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 1312
+        width: 271
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb611052dd5a1e042a210862d26c54f5
+      internalID: 9213535168497733873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink_frog
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 3240
+        width: 226
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446f50a28aed88946bdfc2bb7d889bbb
+      internalID: 3757601296436100984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 3275
+        width: 240
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b59eb2f59266104d837e720ac2cde5d
+      internalID: 2317138849345682547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

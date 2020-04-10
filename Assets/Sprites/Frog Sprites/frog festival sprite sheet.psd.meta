@@ -59,6 +59,9 @@ TextureImporter:
   - first:
       213: 9213535168497733873
     second: Temp.Checkpoint
+  - first:
+      213: -4786434920152635368
+    second: Tap Here
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -541,7 +544,7 @@ TextureImporter:
         width: 271
         height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,6 +552,27 @@ TextureImporter:
       bones: []
       spriteID: cb611052dd5a1e042a210862d26c54f5
       internalID: 9213535168497733873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tap Here
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 70
+        width: 398
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a8cc7658498c4caaf1de315a589a9
+      internalID: -4786434920152635368
       vertices: []
       indices: 
       edges: []

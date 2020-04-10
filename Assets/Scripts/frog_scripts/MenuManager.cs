@@ -25,7 +25,7 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        goldCount = PlayerPrefs.GetInt ("Gold") //for saving gold between sessions
+        goldCount = PlayerPrefs.GetInt("Gold"); //for saving gold between sessions
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ public class MenuManager : MonoBehaviour
 
         if (pinkFrog == 1)
         {
-            inventoryPFrog.SetActive(true) //turns on the skins button in our inventory/roster
+            inventoryPFrog.SetActive(true); //turns on the skins button in our inventory/roster
         }
 
         if (changePFrog == true)

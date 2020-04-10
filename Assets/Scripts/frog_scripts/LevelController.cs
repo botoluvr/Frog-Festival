@@ -27,7 +27,8 @@ public class LevelController : MonoBehaviour
     public Image GoodText;
     public Image PerfectText;
 
-    public Image Tutorial;
+    public Text Tutorial;
+    public Text Tutorial2;
 
     // Start is called before the first frame update
     private void Start()

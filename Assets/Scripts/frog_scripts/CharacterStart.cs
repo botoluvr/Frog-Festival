@@ -10,6 +10,8 @@ public class CharacterStart : MonoBehaviour
     public bool StartJump;
     public SimpleController SC;
     public GameObject CVC;
+    public LevelController LC;
+    public bool alive;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,7 @@ public class CharacterStart : MonoBehaviour
         if (StartJump == false)
         {
             anim.SetBool("start", true);
+            LC.currentsong.Play();
             StartJump = true;
         }
     }
@@ -49,16 +52,19 @@ public class CharacterStart : MonoBehaviour
     //Alternates animations so that the frog will turn
     public void CharacterTurn()
     {
-        if (HasTurn == false)
+        if (alive == true)
         {
-            anim.SetBool("turn", true);
-            HasTurn = true;
-        }
+            if (HasTurn == false)
+            {
+                anim.SetBool("turn", true);
+                HasTurn = true;
+            }
 
-        else if (HasTurn == true)
-        {
-            anim.SetBool("turn", false);
-            HasTurn = false;
+            else if (HasTurn == true)
+            {
+                anim.SetBool("turn", false);
+                HasTurn = false;
+            }
         }
     }
 }

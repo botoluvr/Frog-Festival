@@ -62,6 +62,12 @@ TextureImporter:
   - first:
       213: -4786434920152635368
     second: Tap Here
+  - first:
+      213: 2136323150918711984
+    second: Tap to Start
+  - first:
+      213: -3847569909582797998
+    second: Checkpoint
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -565,7 +571,7 @@ TextureImporter:
         width: 398
         height: 325
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -573,6 +579,48 @@ TextureImporter:
       bones: []
       spriteID: 4b3a8cc7658498c4caaf1de315a589a9
       internalID: -4786434920152635368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tap to Start
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 401
+        width: 1107
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f0822247c6994483b9d6bc06c11e1
+      internalID: 2136323150918711984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 593
+        width: 738
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5f31680ac83b644947f73c6d942cbc
+      internalID: -3847569909582797998
       vertices: []
       indices: 
       edges: []

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class pauseTime : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class pauseTime : MonoBehaviour
         
     }
 
-    public void pauseTimee()
+    public void pauseTime()
     {
         Time.timeScale = 0;
     }

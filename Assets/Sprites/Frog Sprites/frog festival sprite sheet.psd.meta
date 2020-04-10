@@ -56,6 +56,9 @@ TextureImporter:
   - first:
       213: -7395262055697592901
     second: LilySprite
+  - first:
+      213: 9213535168497733873
+    second: Temp.Checkpoint
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -517,7 +520,7 @@ TextureImporter:
         width: 281
         height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -525,6 +528,27 @@ TextureImporter:
       bones: []
       spriteID: 22f50295ee57d504daaffaf8cb705000
       internalID: -7395262055697592901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp.Checkpoint
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 1312
+        width: 271
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb611052dd5a1e042a210862d26c54f5
+      internalID: 9213535168497733873
       vertices: []
       indices: 
       edges: []

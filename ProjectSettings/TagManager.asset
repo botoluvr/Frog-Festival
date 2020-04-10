@@ -11,6 +11,9 @@ TagManager:
   - FP
   - PlayerB
   - PH
+  - Checkpoint1
+  - Checkpoint2
+  - Checkpoint3
   layers:
   - Default
   - TransparentFX

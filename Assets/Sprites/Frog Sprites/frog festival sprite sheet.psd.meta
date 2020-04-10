@@ -47,6 +47,9 @@ TextureImporter:
   - first:
       213: -3991111157999970882
     second: home_frog
+  - first:
+      213: -1937967192313276657
+    second: frog festival sprite sheet_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -230,10 +233,10 @@ TextureImporter:
       name: background
       rect:
         serializedVersion: 2
-        x: 11
-        y: 2883
-        width: 704
-        height: 700
+        x: 70
+        y: 3223
+        width: 300
+        height: 300
       alignment: 9
       pivot: {x: 0.5, y: 0.51291966}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +317,10 @@ TextureImporter:
       name: background 2
       rect:
         serializedVersion: 2
-        x: 19
-        y: 2179
-        width: 694
-        height: 690
+        x: 70
+        y: 2844
+        width: 300
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,7 +448,7 @@ TextureImporter:
         width: 461
         height: 406
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -33,7 +33,7 @@ public class SimpleController : MonoBehaviour
         }
     }
 
-    public void turnbird()
+    public void turnfrog()
     {
         if (cs.alive == true)
         {

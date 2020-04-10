@@ -49,7 +49,13 @@ TextureImporter:
     second: home_frog
   - first:
       213: -1937967192313276657
-    second: frog festival sprite sheet_0
+    second: Great
+  - first:
+      213: 549759136614228591
+    second: Perfect
+  - first:
+      213: -7395262055697592901
+    second: LilySprite
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -456,6 +462,69 @@ TextureImporter:
       bones: []
       spriteID: 14ebb064eb203eb43968877a3d56ef85
       internalID: -3991111157999970882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2489
+        width: 741
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490655bb2cb14148b427248f5b3c874
+      internalID: -1937967192313276657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perfect
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2221
+        width: 1016
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0419d6d6b98e67b42aed6f48065d9aaf
+      internalID: 549759136614228591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 1670
+        width: 281
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f50295ee57d504daaffaf8cb705000
+      internalID: -7395262055697592901
       vertices: []
       indices: 
       edges: []

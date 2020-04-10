@@ -24,8 +24,8 @@ public class LevelController : MonoBehaviour
     // bool for outputing and effect depending on the schore
     public bool goodscore;
     public bool perfectscore;
-    public Text good;
-    public Text perfect;
+    public Image GoodText;
+    public Image PerfectText;
 
 
     // Start is called before the first frame update
@@ -74,28 +74,28 @@ public class LevelController : MonoBehaviour
     {
         if(goodscore == true)
         {
-            StartCoroutine(Goodhit());
+            StartCoroutine(GoodHit());
             //goodhitsound.Play();
         }
 
         if (perfectscore == true)
         {
-            StartCoroutine(Perfecthit());
+            StartCoroutine(PerfectHit());
             //perfecthitsound.Play();
         }
     }
 
     IEnumerator GoodHit()
     {
-        good.enabled = true;
+        GoodText.enabled = true;
         yield return new WaitForSeconds(.25f);
-        good.enabled = false;
+        GoodText.enabled = false;
     }
 
-    IEnumerator GPerfectHit()
+    IEnumerator PerfectHit()
     {
-        perfect.enabled = true;
+        PerfectText.enabled = true;
         yield return new WaitForSeconds(.25f);
-        perfect.enabled = false;
+        PerfectText.enabled = false;
     }
 }

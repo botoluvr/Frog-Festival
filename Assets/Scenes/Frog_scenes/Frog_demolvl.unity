@@ -11903,9 +11903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Frog_Main_Menu
-  thePlayer: {fileID: 0}
-  theCamera: {fileID: 0}
-  theLevelManager: {fileID: 0}
+  cvc: {fileID: 1995999292}
   waitToMove: 0
   waitToLoad: 0
   pauseScreen: {fileID: 113001020}

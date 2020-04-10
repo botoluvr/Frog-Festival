@@ -27,9 +27,10 @@ public class LevelController : MonoBehaviour
     public Image GoodText;
     public Image PerfectText;
 
+    public Image Tutorial;
 
     // Start is called before the first frame update
-   private void Start()
+    private void Start()
     {
         currentsong = song1;
     }

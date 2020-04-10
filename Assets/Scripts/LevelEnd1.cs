@@ -16,6 +16,8 @@ public class LevelEnd1 : MonoBehaviour {
 
 	public GameObject pauseScreen;
 
+    public bool tutorial;
+
 	// Use this for initialization
 	void Start () {
 
@@ -47,6 +49,11 @@ public class LevelEnd1 : MonoBehaviour {
 				//SceneManager.LoadScene(levelToLoad);
 			    StartCoroutine("LevelEndCo");
 			}
+
+        if (tutorial == true)
+        {
+            PlayerPrefs.SetInt("LvlStart", 1);
+        }
 	}
 
 	public IEnumerator LevelEndCo()

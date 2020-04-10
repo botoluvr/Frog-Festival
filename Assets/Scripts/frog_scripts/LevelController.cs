@@ -52,7 +52,7 @@ public class LevelController : MonoBehaviour
     public IEnumerator RespawnCo()
     {
         sc.enabled = false;
-        sc.turn = false;
+        sc.turn = true;
         myanim.SetBool("turn", false);
         cs.HasTurn = false;
         cs.alive = false;

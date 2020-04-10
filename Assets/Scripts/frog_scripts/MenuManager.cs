@@ -34,21 +34,15 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("Gold", goldCount); //for saving gold between sessions
 
         goldText.text = "" + goldCount;
-        pinkFrog = PlayerPrefs.GetInt("pinkFrogSkin");
-
-        if (pinkFrog == 1)
-        {
-            inventoryPFrog.SetActive(true); //turns on the skins button in our inventory/roster
-        }
 
         if (changePFrog == true)
         {
-            pinkFrogSkin.SetActive(true); //lets us see the skin
+           // pinkFrogSkin.SetActive(true); //lets us see the skin
         }
 
         if (changePFrog == false)
         {
-            pinkFrogSkin.SetActive(false); //goes back to default skin
+            //pinkFrogSkin.SetActive(false); //goes back to default skin
         }
 
         if (goldCount >= 5 && ownPFrog == false) //if we have enough gold and didnt but the skin yet
@@ -70,7 +64,8 @@ public class MenuManager : MonoBehaviour
 
     public void WearPFrog()
     {
-        changePFrog = true;
+        PlayerPrefs.SetInt("FrogSkin", 1);
+        //changePFrog = true;
     }
 
     public void reset()

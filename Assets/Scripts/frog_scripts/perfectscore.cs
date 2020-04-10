@@ -22,7 +22,7 @@ public class perfectscore : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
 
     {
-        if (collision.tag == "CT")
+        if (collision.tag == "PH")
         {
             LC.goodscore = false;
             LC.perfectscore = true;
@@ -32,7 +32,7 @@ public class perfectscore : MonoBehaviour
     // prevents the score from registering "good" if you miss the pad
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "CT")
+        if (collision.tag == "PH")
         {
             LC.goodscore = true;
             LC.perfectscore = false;

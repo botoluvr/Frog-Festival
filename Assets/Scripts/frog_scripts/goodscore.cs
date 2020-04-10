@@ -21,7 +21,7 @@ public class goodscore : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     
     {
-        if(collision.tag == "CT")
+        if(collision.tag == "PH")
         {
             LC.goodscore = true;
         }
@@ -30,7 +30,7 @@ public class goodscore : MonoBehaviour
     // prevents the score from registering "good" if you miss the pad
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "CT")
+        if (collision.tag == "PH")
         {
             LC.goodscore = false;
         }

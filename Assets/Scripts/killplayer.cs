@@ -22,7 +22,7 @@ public class killplayer : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            //theLevelManager.Respawn ();
+            theLevelManager.Respawn ();
             //theLevelManager.HurtPlayer(damageToGive);
             theLevelManager.healthCount = 0;
         }

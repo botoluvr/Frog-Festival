@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ProgressManager : MonoBehaviour
 {
@@ -28,12 +29,12 @@ public class ProgressManager : MonoBehaviour
     {
         if (currentLevel == 0)
         {
-            //SceneManager.LoadScene("LoadingScene"); // LoadingScene loads up the Tutorial
+            SceneManager.LoadScene("Frog_demolvl"); // LoadingScene loads up the Tutorial
         }
         
         else if (currentLevel == 1)
         {
-            //SceneManager.LoadScene("LoadingScene2"); // LoadingScene2 loads up the first level
+            SceneManager.LoadScene("Frog_lvl1"); // LoadingScene2 loads up the first level
         }
 
     }

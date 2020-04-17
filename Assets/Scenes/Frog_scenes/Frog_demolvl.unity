@@ -9213,7 +9213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Frog_Main_Menu
-  cvc: {fileID: 0}
+  cvc: {fileID: 1995999292}
   waitToMove: 0
   waitToLoad: 0
   pauseScreen: {fileID: 113001020}
@@ -10360,8 +10360,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475909628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.56, y: 31.92, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -29.47, y: 31.51, z: 0}
+  m_LocalScale: {x: 1.06, y: 1.06, z: 1.06}
   m_Children: []
   m_Father: {fileID: 1085997936}
   m_RootOrder: 2
@@ -11097,8 +11097,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719796736}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.8492007, y: 1.1294689, z: 0}
-  m_LocalScale: {x: 0.75029, y: 0.75029, z: 0.75029}
+  m_LocalPosition: {x: -2.6, y: 0.98, z: 0}
+  m_LocalScale: {x: 0.92645806, y: 0.92645806, z: 0.92645806}
   m_Children: []
   m_Father: {fileID: 1085997936}
   m_RootOrder: 1

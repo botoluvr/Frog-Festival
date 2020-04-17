@@ -11943,7 +11943,7 @@ MonoBehaviour:
   waitToMove: 0
   waitToLoad: 0
   pauseScreen: {fileID: 113001020}
-  tutorial: 1
+  tutorial: 0
 --- !u!61 &953203653
 BoxCollider2D:
   m_ObjectHideFlags: 0

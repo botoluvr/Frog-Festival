@@ -3717,7 +3717,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &589622670
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12227,7 +12227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 953203654}
   - component: {fileID: 953203653}
-  - component: {fileID: 953203652}
+  - component: {fileID: 953203655}
   m_Layer: 0
   m_Name: level end
   m_TagString: Untagged
@@ -12235,24 +12235,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &953203652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953203651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd1c47a141821f8408e3767bcb1642ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelToLoad: Frog_Main_Menu
-  cvc: {fileID: 1995999292}
-  waitToMove: 0
-  waitToLoad: 0
-  pauseScreen: {fileID: 113001020}
-  tutorial: 1
 --- !u!61 &953203653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12287,12 +12269,37 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953203651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -140.04, y: 156.71, z: -1123.0377}
+  m_LocalPosition: {x: -140.04, y: 157.08, z: -1123.0377}
   m_LocalScale: {x: 8.208906, y: 1.4121, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953203655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953203651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4861c61058453084097472624387ff03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: 
+  thePlayer: {fileID: 903103468}
+  cvc: {fileID: 1995999292}
+  waitToMove: 0
+  waitToLoad: 0
+  tutorial: 0
+  combo: 0
+  comboText: {fileID: 0}
+  pauseScreen: {fileID: 113001020}
+  LevelEndScreen: {fileID: 589622669}
+  finalCombo: {fileID: 0}
+  score: 0
+  scoretobeatlevel: 0
 --- !u!1 &959540575
 GameObject:
   m_ObjectHideFlags: 0

@@ -57,6 +57,9 @@ TagManager:
   - name: Lily Pads
     uniqueID: 1934889403
     locked: 0
+  - name: gold
+    uniqueID: 1440210973
+    locked: 0
   - name: Player
     uniqueID: 3207649549
     locked: 0

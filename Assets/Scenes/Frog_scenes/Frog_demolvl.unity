@@ -7165,11 +7165,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd1c47a141821f8408e3767bcb1642ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Frog_Main_Menu
+  levelToLoad: 
   cvc: {fileID: 1995999292}
   waitToMove: 0
   waitToLoad: 0
   pauseScreen: {fileID: 113001020}
+  LevelEndScreen: {fileID: 913284417}
   tutorial: 1
 --- !u!61 &953203653
 BoxCollider2D:

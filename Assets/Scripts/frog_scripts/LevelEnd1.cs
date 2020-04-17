@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Cinemachine;
 
@@ -18,6 +19,7 @@ public class LevelEnd1 : MonoBehaviour {
 	private bool movePlayer;
 
 	public GameObject pauseScreen;
+    public GameObject LevelEndScreen;
 
     public bool tutorial;
 
@@ -47,37 +49,39 @@ public class LevelEnd1 : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if(other.tag == "Player")
-			{
-				//SceneManager.LoadScene(levelToLoad);
-			    StartCoroutine("LevelEndCo");
-			}
+		{
+            SceneManager.LoadScene(levelToLoad);
+            LevelEnd();
+        }
 
         if (tutorial == true)
         {
             PlayerPrefs.SetInt("LvlStart", 1);
         }
-	}
 
-	public IEnumerator LevelEndCo()
-	{
+    }
+
+    public void LevelEnd()
+    {
         cvc.enabled = false;
-		//thePlayer.canMove = false;
-		//theCamera.followTarget = false;
-		//pauseScreen.SetActive (false);
-		//theLevelManager.invincible = true;
-		//thePlayer.myRigidBody.velocity = Vector3.zero;
+        //thePlayer.canMove = false;
+        //theCamera.followTarget = false;
+        //pauseScreen.SetActive (false);
+        //theLevelManager.invincible = true;
+        //thePlayer.myRigidBody.velocity = Vector3.zero;
 
-		//PlayerPrefs.SetInt ("CoinCount", theLevelManager.coinCount);
-		//PlayerPrefs.SetInt ("PlayerLives", theLevelManager.currentLives);
+        //PlayerPrefs.SetInt ("CoinCount", theLevelManager.coinCount);
+        //PlayerPrefs.SetInt ("PlayerLives", theLevelManager.currentLives);
         PlayerPrefs.SetInt("GB", 2);
 
         //theLevelManager.levelMusic.Stop ();
-		//theLevelManager.gameOverMusic.Play ();
+        //theLevelManager.gameOverMusic.Play ();
 
-		yield return new WaitForSeconds (waitToMove);
-		movePlayer = true;
+        //yield return new WaitForSeconds(waitToMove);
+        // movePlayer = true;
 
-		yield return new WaitForSeconds (waitToLoad);
-		SceneManager.LoadScene(levelToLoad);
-	}
+        LevelEndScreen.SetActive(true);
+        //yield return new WaitForSeconds(waitToLoad);
+        //SceneManager.LoadScene(levelToLoad);
+    }
 }

@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: 1d1098e75cbf6584d812c8fc8c578388
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1884672548346934703
+    second: gacha1
+  - first:
+      213: -5444115988312099539
+    second: char1
+  - first:
+      213: -6045083622836137314
+    second: char2
+  - first:
+      213: 4954321184531853851
+    second: char3
+  - first:
+      213: -517567697698911122
+    second: char4
+  - first:
+      213: 6939078450636255754
+    second: irl1
+  - first:
+      213: 3308930426587789747
+    second: irl2
+  - first:
+      213: -2087765584810994487
+    second: irl3
+  - first:
+      213: 5146051339446243319
+    second: gacha2
+  - first:
+      213: 6337857688861601648
+    second: gacha3
+  - first:
+      213: 6689388716322349922
+    second: gacha4
+  - first:
+      213: 5980037229862813417
+    second: speach1
+  - first:
+      213: 2833719837302613762
+    second: speach2
+  - first:
+      213: 7714974008144827658
+    second: speach3
+  - first:
+      213: 6518491392796043282
+    second: speach4
+  - first:
+      213: 3829297853176229902
+    second: speach5
+  - first:
+      213: -2391042275845914641
+    second: speach6
+  - first:
+      213: 1735708174894468793
+    second: wave1
+  - first:
+      213: -6644009175882021050
+    second: wave2
+  - first:
+      213: 6684373343346130644
+    second: wave3
+  - first:
+      213: -7703274596209958985
+    second: wave4
+  - first:
+      213: 1777539720272608352
+    second: wave5
+  - first:
+      213: -5307907554679234467
+    second: wave6
+  - first:
+      213: -2417641571344400058
+    second: wave7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +112,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +142,537 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gacha1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4393
+        width: 485
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227e595749cad2b4b999c84b5f4e110e
+      internalID: 1884672548346934703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5041
+        width: 506
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6a72772191c9547997c6d8a13894c9
+      internalID: -5444115988312099539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 5041
+        width: 500
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d3d9401c3c1c6419f0537c32dba2c1
+      internalID: -6045083622836137314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 5041
+        width: 490
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fab70090902f942bf13e30c7dcdebb
+      internalID: 4954321184531853851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char4
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 5041
+        width: 481
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c1d57021686fc488af668b7131ebef
+      internalID: -517567697698911122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: irl1
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 5041
+        width: 481
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e82aacb5bb6a448a2300b4c07e162
+      internalID: 6939078450636255754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: irl2
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 5041
+        width: 481
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988f21d97c0bf2045b71b4e9db0d29d0
+      internalID: 3308930426587789747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: irl3
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 5042
+        width: 482
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a4cb64672481548b7be5cd58c81d46
+      internalID: -2087765584810994487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gacha2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 4393
+        width: 481
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93363f4909cf374d92c44beb275a488
+      internalID: 5146051339446243319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gacha3
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 4396
+        width: 481
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7608b6c79ec6d443b012ad8a200d54e
+      internalID: 6337857688861601648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gacha4
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 4393
+        width: 483
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718e33cab10ded4fa092663e874706e
+      internalID: 6689388716322349922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speach1
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 4894
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a8ba48aef75624c929ed748dec5468
+      internalID: 5980037229862813417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speach2
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 4878
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cd9acd30eee36478e9a120f164d829
+      internalID: 2833719837302613762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speach3
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 4858
+        width: 150
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479262ea306be1448bab57ef4c05bdec
+      internalID: 7714974008144827658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speach4
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 4800
+        width: 353
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b887161a4f6e946ba62b0fca628c8c
+      internalID: 6518491392796043282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speach5
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 4752
+        width: 470
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e508bdfac97a64eb5dc28ec9f9a181
+      internalID: 3829297853176229902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speach6
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 4742
+        width: 496
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcf148656af52f4aab129146da141ff
+      internalID: -2391042275845914641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3792
+        width: 373
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5cf3c08f36c084fb2e1ea39c596204
+      internalID: 1735708174894468793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3795
+        width: 371
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404854110c72c74a97fa6978c804bc6
+      internalID: -6644009175882021050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3795
+        width: 370
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3956b6863dde049bcffa1e8b983abe
+      internalID: 6684373343346130644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave4
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 3795
+        width: 368
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba236932a6fe0f47b20b7569b2e0111
+      internalID: -7703274596209958985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave5
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 3795
+        width: 370
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13150964bdc76840a85135c4ee9736d
+      internalID: 1777539720272608352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave6
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3795
+        width: 370
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb8707bc820ad449a7f7be843e84b90
+      internalID: -5307907554679234467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave7
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 3795
+        width: 370
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97875c6e69603b43a8eb86e5ccd5dbb
+      internalID: -2417641571344400058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -85,7 +685,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

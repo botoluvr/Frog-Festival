@@ -76,7 +76,7 @@ TextureImporter:
     second: tap
   - first:
       213: -1937967192313276657
-    second: frog festival sprite sheet_0
+    second: pause
   - first:
       213: 8316149363157524145
     second: CP placeholder
@@ -680,7 +680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frog festival sprite sheet_0
+      name: pause
       rect:
         serializedVersion: 2
         x: 2348
@@ -709,7 +709,7 @@ TextureImporter:
         width: 357
         height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

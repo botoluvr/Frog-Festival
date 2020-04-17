@@ -11903,7 +11903,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Frog_Main_Menu
-  cvc: {fileID: 1995999292}
+  thePlayer: {fileID: 0}
+  theCamera: {fileID: 0}
+  theLevelManager: {fileID: 0}
   waitToMove: 0
   waitToLoad: 0
   pauseScreen: {fileID: 113001020}
@@ -29029,7 +29031,7 @@ SpriteRenderer:
   m_SortingLayerID: -37849875
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6955517447770475708, guid: 687d47111ef723c419cdf186f0fa635c,
+  m_Sprite: {fileID: 7429914694830084677, guid: 687d47111ef723c419cdf186f0fa635c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

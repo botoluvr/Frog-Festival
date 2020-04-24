@@ -16134,6 +16134,7 @@ MonoBehaviour:
   goldCount: 0
   goldText: {fileID: 1604184702}
   shopPFrog: {fileID: 1239641614}
+  rosterPink: {fileID: 0}
   ownPFrog: 0
 --- !u!4 &742781196
 Transform:

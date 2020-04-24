@@ -143,6 +143,12 @@ TextureImporter:
   - first:
       213: 2511872298921603380
     second: frog festival sprite sheet 2_46
+  - first:
+      213: 5649293406703628317
+    second: leftsprite
+  - first:
+      213: 2022886954507442317
+    second: rightsprite
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1095,6 +1101,48 @@ TextureImporter:
       bones: []
       spriteID: bf5668efd85417f4b9812c5b7996f321
       internalID: 2511872298921603380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftsprite
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1961
+        width: 312
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0956488a80c074f4b8b1e20bb20479fa
+      internalID: 5649293406703628317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightsprite
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 1962
+        width: 313
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb93056df0c4144e9ac7efbced84823
+      internalID: 2022886954507442317
       vertices: []
       indices: 
       edges: []

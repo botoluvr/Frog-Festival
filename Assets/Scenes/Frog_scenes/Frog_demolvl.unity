@@ -6791,7 +6791,7 @@ MonoBehaviour:
   myRigidBody: {fileID: 903103469}
   moveSpeed: 6
   LC: {fileID: 569094358}
-  respawnPosition: {x: 0, y: 0, z: 0}
+  respawnPosition: {x: 0.02, y: -3.9583, z: 0}
   cs: {fileID: 1856549907}
 --- !u!50 &903103469
 Rigidbody2D:
@@ -8432,6 +8432,7 @@ MonoBehaviour:
   goldCount: 0
   goldText: {fileID: 279584016}
   shopPFrog: {fileID: 1105594932}
+  rosterPink: {fileID: 0}
   ownPFrog: 0
 --- !u!4 &1362850554
 Transform:

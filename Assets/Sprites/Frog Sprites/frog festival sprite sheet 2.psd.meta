@@ -92,6 +92,57 @@ TextureImporter:
   - first:
       213: -3890310434487795062
     second: checkpoint5
+  - first:
+      213: 6496076065987722619
+    second: perfectsprite1
+  - first:
+      213: -1822518606784007687
+    second: perfectsprite2
+  - first:
+      213: -9126553370949501931
+    second: perfectsprite3
+  - first:
+      213: 4182767587994589177
+    second: perfectsprite4
+  - first:
+      213: 8256694266928440275
+    second: frog festival sprite sheet 2_4
+  - first:
+      213: -7199723702263144129
+    second: perfectsprite5
+  - first:
+      213: -410869455712737626
+    second: perfectsprite6
+  - first:
+      213: 560444575648498594
+    second: frog festival sprite sheet 2_10
+  - first:
+      213: -334255079143737839
+    second: perfectsprite10
+  - first:
+      213: -4987473092843434417
+    second: perfectsprite9
+  - first:
+      213: -6273726264626557132
+    second: perfectsprite7
+  - first:
+      213: 6234124392059678593
+    second: perfectsprite8
+  - first:
+      213: -5103698341151661653
+    second: frog festival sprite sheet 2_33
+  - first:
+      213: 4100485560334370010
+    second: frog festival sprite sheet 2_34
+  - first:
+      213: -8983953502378070882
+    second: frog festival sprite sheet 2_39
+  - first:
+      213: -2515922903715655334
+    second: frog festival sprite sheet 2_44
+  - first:
+      213: 2511872298921603380
+    second: frog festival sprite sheet 2_46
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -779,7 +830,7 @@ TextureImporter:
       name: checkpoint4
       rect:
         serializedVersion: 2
-        x: 1555
+        x: 1553
         y: 3239
         width: 544
         height: 515
@@ -813,6 +864,237 @@ TextureImporter:
       bones: []
       spriteID: 591fc83fa94065f49b7bfd0607460e86
       internalID: -3890310434487795062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite1
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 3212
+        width: 551
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3502676aefa02fa4f8ef4ad4657a13b0
+      internalID: 6496076065987722619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2618
+        width: 642
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9efd44eabcc184e816cbd297746601
+      internalID: -1822518606784007687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2501
+        width: 756
+        height: 735
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc3a922020d898429557e5b20034de8
+      internalID: -9126553370949501931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite4
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 2597
+        width: 636
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5c610fa7a192c4788496fab72b6452
+      internalID: 4182767587994589177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite5
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 2580
+        width: 551
+        height: 541
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d6de5b9633794ab014e65a1dd1d71
+      internalID: -7199723702263144129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite6
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2509
+        width: 632
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c849b3bd3317c47bb814dc7796d25d
+      internalID: -410869455712737626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite10
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2060
+        width: 444
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc7f32d95900b48a5cc83167df59e2
+      internalID: -334255079143737839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite9
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1926
+        width: 691
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db17b562ebae4c144ad5412ffece7683
+      internalID: -4987473092843434417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1912
+        width: 678
+        height: 629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa2784b567dc734e8c8f455af1e258e
+      internalID: -6273726264626557132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfectsprite8
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1787
+        width: 700
+        height: 664
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26937379ea633de40bd3a7efbe3044f9
+      internalID: 6234124392059678593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog festival sprite sheet 2_46
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1828
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5668efd85417f4b9812c5b7996f321
+      internalID: 2511872298921603380
       vertices: []
       indices: 
       edges: []

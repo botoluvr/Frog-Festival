@@ -333,7 +333,8 @@ MonoBehaviour:
   goldCount: 0
   goldText: {fileID: 1280376690}
   shopPFrog: {fileID: 1166333268}
-  ownPFrog: 0
+  rosterPink: {fileID: 0}
+  ownPFrog: 1
 --- !u!1 &266925772
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0000083447, y: -20.1}
+  m_AnchoredPosition: {x: 0.0000083447, y: -20.099976}
   m_SizeDelta: {x: 269.8, y: 27.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270129569
@@ -863,7 +864,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -37849875
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5444115988312099539, guid: 1d1098e75cbf6584d812c8fc8c578388,
     type: 3}

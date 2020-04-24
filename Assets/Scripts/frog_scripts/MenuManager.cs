@@ -18,6 +18,7 @@ public class MenuManager : MonoBehaviour
 
     //this makes the items in the shop buttons so when u click on them it does something
     public Button shopPFrog;
+    public Button rosterPink;
 
     //if we own something we dont want to purchase it again
     public bool ownPFrog;
@@ -26,6 +27,7 @@ public class MenuManager : MonoBehaviour
     void Start()
     {
         goldCount = PlayerPrefs.GetInt("Gold"); //for saving gold between sessions
+        pinkFrog = PlayerPrefs.GetInt("pinkFrog");
     }
 
     // Update is called once per frame
@@ -35,19 +37,31 @@ public class MenuManager : MonoBehaviour
 
         goldText.text = "" + goldCount;
 
-        if (changePFrog == true)
+        if (pinkFrog == 1 && rosterPink != null)
         {
-           // pinkFrogSkin.SetActive(true); //lets us see the skin
+            rosterPink.interactable = true;
         }
 
-        if (changePFrog == false)
+        else if (pinkFrog == 0 && rosterPink != null)
         {
-            //pinkFrogSkin.SetActive(false); //goes back to default skin
+            rosterPink.interactable = false;
         }
 
         if (goldCount >= 5 && ownPFrog == false) //if we have enough gold and didnt but the skin yet
         {
-            shopPFrog.interactable = true; //button is now clickable
+            if (shopPFrog != null)
+            {
+                shopPFrog.interactable = true; //button is now clickable
+            }
+
+        }
+
+        else 
+        {
+            if (shopPFrog != null)
+            {
+                shopPFrog.interactable = false;
+            }
 
         }
 
@@ -56,7 +70,7 @@ public class MenuManager : MonoBehaviour
 
     public void BuyPFrog()
     {
-        goldCount -= 1;
+        goldCount -= 5;
         PlayerPrefs.SetInt("pinkFrog", 1);
         shopPFrog.interactable = false;
         ownPFrog = true;
@@ -64,14 +78,18 @@ public class MenuManager : MonoBehaviour
 
     public void WearPFrog()
     {
-        PlayerPrefs.SetInt("FrogSkin", 1);
+        //PlayerPrefs.SetInt("FrogSkin", 1);
         //changePFrog = true;
     }
 
     public void reset()
     {
         PlayerPrefs.SetInt("pinkFrog", 0);
+        PlayerPrefs.SetInt("Gold", 0);
+        PlayerPrefs.SetInt("frogskin", 0);
         inventoryPFrog.SetActive(false);
-        changePFrog = false;
+        goldCount = PlayerPrefs.GetInt("Gold");
+        goldText.text = "" + goldCount;
+        //changePFrog = false;
     }
 }

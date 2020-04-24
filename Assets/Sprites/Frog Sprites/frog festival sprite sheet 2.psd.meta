@@ -161,6 +161,9 @@ TextureImporter:
   - first:
       213: 8368552351092085747
     second: tile4
+  - first:
+      213: -3489174748472186726
+    second: frog song icon 2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1168,7 +1171,7 @@ TextureImporter:
         width: 339
         height: 339
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1189,7 +1192,7 @@ TextureImporter:
         width: 338
         height: 337
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1210,7 +1213,7 @@ TextureImporter:
         width: 340
         height: 339
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1231,7 +1234,7 @@ TextureImporter:
         width: 340
         height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1239,6 +1242,27 @@ TextureImporter:
       bones: []
       spriteID: 8dcea60e6c623a348a18007ae7e9fb20
       internalID: 8368552351092085747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog song icon 2
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 63
+        width: 1089
+        height: 1084
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e625ed7074d64c459ba979b2eaa93c7
+      internalID: -3489174748472186726
       vertices: []
       indices: 
       edges: []

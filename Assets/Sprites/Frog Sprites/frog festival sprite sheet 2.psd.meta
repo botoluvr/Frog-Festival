@@ -77,6 +77,21 @@ TextureImporter:
   - first:
       213: 1012007381585735406
     second: frog song icon
+  - first:
+      213: 6132354915870995114
+    second: checkpoint1
+  - first:
+      213: -4709074028866724107
+    second: checkpoint2
+  - first:
+      213: -5682397507072806600
+    second: checkpoint3
+  - first:
+      213: 8680981129134481514
+    second: checkpoint4
+  - first:
+      213: -3890310434487795062
+    second: checkpoint5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -685,7 +700,7 @@ TextureImporter:
         width: 978
         height: 964
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -693,6 +708,111 @@ TextureImporter:
       bones: []
       spriteID: 692431669bf9d724eab0e6510ac73942
       internalID: 1012007381585735406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 3358
+        width: 246
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65a89a2c8e5b0e4bb54c7a199854985
+      internalID: 6132354915870995114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 3306
+        width: 350
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0be4ca8df323bd41b1093235a52c911
+      internalID: -4709074028866724107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint3
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 3261
+        width: 502
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb088faffd6355c45a0e518f22d0fb34
+      internalID: -5682397507072806600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint4
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 3239
+        width: 544
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73a52425d28ed64d9eec79de9ad2aa2
+      internalID: 8680981129134481514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint5
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 3171
+        width: 771
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591fc83fa94065f49b7bfd0607460e86
+      internalID: -3890310434487795062
       vertices: []
       indices: 
       edges: []

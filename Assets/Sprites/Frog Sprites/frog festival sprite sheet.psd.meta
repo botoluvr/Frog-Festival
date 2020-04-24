@@ -55,7 +55,7 @@ TextureImporter:
     second: Perfect
   - first:
       213: -7395262055697592901
-    second: LilySprite
+    second: LilySprite1
   - first:
       213: 9213535168497733873
     second: Temp.Checkpoint
@@ -89,6 +89,27 @@ TextureImporter:
   - first:
       213: 2748624375217693314
     second: frog_bump6
+  - first:
+      213: -9011266334647626881
+    second: LilySprite2
+  - first:
+      213: -1380963652007568178
+    second: LilySprite3
+  - first:
+      213: 2731592411277464876
+    second: LilySprite4
+  - first:
+      213: 3343406543024016303
+    second: LilySprite6
+  - first:
+      213: -3852825704405129768
+    second: LilySprite7
+  - first:
+      213: -5391556156758773933
+    second: LilySprite8
+  - first:
+      213: 8992425764407359463
+    second: LilySprite9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -542,7 +563,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LilySprite
+      name: LilySprite1
       rect:
         serializedVersion: 2
         x: 2191
@@ -789,6 +810,153 @@ TextureImporter:
       bones: []
       spriteID: 24ad256437a60e948bef7ca4e6e1588b
       internalID: 2748624375217693314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite2
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 1677
+        width: 315
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56065b5d450748b4e8f52b98f2d20a8d
+      internalID: -9011266334647626881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite3
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1311
+        width: 377
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3b4853dbf961647864d8d71b5940bb
+      internalID: -1380963652007568178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite4
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 1312
+        width: 315
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e6b903885918d42b58504097af2f76
+      internalID: 2731592411277464876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite6
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 952
+        width: 316
+        height: 297
+      alignment: 9
+      pivot: {x: 0.47716552, y: 0.5110434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88550e8a0162744ab5d8b1bbbb0876
+      internalID: 3343406543024016303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite7
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 950
+        width: 339
+        height: 323
+      alignment: 9
+      pivot: {x: 0.47290975, y: 0.4979694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f89baa30565e48408c06cace36aeeb0
+      internalID: -3852825704405129768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite8
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 947
+        width: 341
+        height: 318
+      alignment: 9
+      pivot: {x: 0.49615318, y: 0.50618875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a9937875923d64eaa2cd3aacc04274
+      internalID: -5391556156758773933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilySprite9
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1046
+        width: 139
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761559e582cb594dacb30642e3648ac
+      internalID: 8992425764407359463
       vertices: []
       indices: 
       edges: []

@@ -334,7 +334,7 @@ MonoBehaviour:
   goldText: {fileID: 1280376690}
   shopPFrog: {fileID: 1166333268}
   rosterPink: {fileID: 0}
-  ownPFrog: 1
+  ownPFrog: 0
 --- !u!1 &266925772
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651019710}
   - component: {fileID: 651019709}
+  - component: {fileID: 651019711}
   m_Layer: 0
   m_Name: char1
   m_TagString: Untagged
@@ -892,6 +893,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &651019711
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651019708}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: abab7d2f3fe838c4a87cef112ab05782, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &736595440
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ TextureImporter:
     second: frog_bump2
   - first:
       213: 819021052716436809
-    second: frog_bump3
+    second: frog_bump4
   - first:
       213: 2886707900310754132
     second: background 2
@@ -80,6 +80,15 @@ TextureImporter:
   - first:
       213: 8316149363157524145
     second: CP placeholder
+  - first:
+      213: 819021052716436809
+    second: frog_bump3
+  - first:
+      213: -5171288974659548998
+    second: frog_bump5
+  - first:
+      213: 2748624375217693314
+    second: frog_bump6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -288,8 +297,8 @@ TextureImporter:
         y: 2620
         width: 274
         height: 408
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5041272, y: 0.624711}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,8 +318,8 @@ TextureImporter:
         y: 2620
         width: 310
         height: 382
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5000008, y: 0.50888044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,15 +332,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frog_bump3
+      name: frog_bump4
       rect:
         serializedVersion: 2
         x: 1757
-        y: 2191
+        y: 2194
         width: 344
         height: 407
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5065744, y: 0.48610976}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -717,6 +726,69 @@ TextureImporter:
       bones: []
       spriteID: d1cd3c672200fc1419ec6553e5a1a387
       internalID: 8316149363157524145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump3
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 2623
+        width: 328
+        height: 383
+      alignment: 9
+      pivot: {x: 0.48965827, y: 0.48819137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc42a1d5d41fe54f99c5a6a1f80e02d
+      internalID: 819021052716436809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump5
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2193
+        width: 335
+        height: 410
+      alignment: 9
+      pivot: {x: 0.50675064, y: 0.47793743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02365adbec279ce448b5d8273601601b
+      internalID: -5171288974659548998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frog_bump6
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 2192
+        width: 335
+        height: 313
+      alignment: 9
+      pivot: {x: 0.50790507, y: 0.6308836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ad256437a60e948bef7ca4e6e1588b
+      internalID: 2748624375217693314
       vertices: []
       indices: 
       edges: []

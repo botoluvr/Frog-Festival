@@ -87,7 +87,7 @@ public class MenuManager : MonoBehaviour
         PlayerPrefs.SetInt("pinkFrog", 0);
         PlayerPrefs.SetInt("Gold", 0);
         PlayerPrefs.SetInt("frogskin", 0);
-        inventoryPFrog.SetActive(false);
+        //inventoryPFrog.SetActive(false);
         goldCount = PlayerPrefs.GetInt("Gold");
         goldText.text = "" + goldCount;
         //changePFrog = false;

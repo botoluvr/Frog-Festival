@@ -29,6 +29,8 @@ public class LevelController : MonoBehaviour
 
     public Text Tutorial;
     public Text Tutorial2;
+    public int ComboScore;
+    public Text CurrentComboScore;
 
     // Start is called before the first frame update
     private void Start()
@@ -39,7 +41,8 @@ public class LevelController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        
+        //print current combo
+        CurrentComboScore.text = ComboScore + "Combo";
     }
 
     public void Respawn()
@@ -56,12 +59,15 @@ public class LevelController : MonoBehaviour
         myanim.SetBool("turn", false);
         cs.HasTurn = false;
         cs.alive = false;
+        //GET RID OF THE LINE BELOW before enabling the death animation bool
         sr.enabled = false;
+        //my anim.SetBool("death", true)
         rb2D.simulated = false;
         currentsong.Stop();
 
         yield return new WaitForSeconds(waitToRespawn);
 
+        //my anim.SetBool("death", false)
         cs.alive = true;
         respawning = false;
         sc.transform.position = sc.respawnPosition;
@@ -74,15 +80,26 @@ public class LevelController : MonoBehaviour
 
     public void LilyHit()
     {
+        if (goodscore == false)
+        {
+            ComboScore = 0;
+        }
+
         if(goodscore == true)
         {
+            //combo sets back to 0
+            GoodText.enabled = false;
             StartCoroutine(GoodHit());
+            ComboScore = 0;
             //goodhitsound.Play();
         }
 
         if (perfectscore == true)
         {
+            //combo counts up by one
+            PerfectText.enabled = false;
             StartCoroutine(PerfectHit());
+            ComboScore += 1;
             //perfecthitsound.Play();
         }
     }

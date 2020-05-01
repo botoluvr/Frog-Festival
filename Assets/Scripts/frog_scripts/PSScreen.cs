@@ -18,6 +18,7 @@ public class PSScreen : MonoBehaviour {
 
     public void LevelLoad()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(leveltoLoad);
     }
 }

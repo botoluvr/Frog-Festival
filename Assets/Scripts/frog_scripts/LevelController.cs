@@ -23,6 +23,7 @@ public class LevelController : MonoBehaviour
 
     public bool goodlily;
     public bool perfectlily;
+    public bool lilyoff;
     public Animator lilyanim;
 
     // bool for outputing and effect depending on the schore
@@ -97,7 +98,6 @@ public class LevelController : MonoBehaviour
             GoodText.enabled = false;
             StartCoroutine(GoodHit());
             ComboScore = 0;
-            lilyanim.SetBool("goodlily", true);
             //goodhitsound.Play();
         }
 
@@ -107,7 +107,6 @@ public class LevelController : MonoBehaviour
             PerfectText.enabled = false;
             StartCoroutine(PerfectHit());
             ComboScore += 1;
-            lilyanim.SetBool("perfectlily", true);
             //perfecthitsound.Play();
         }
     }
@@ -115,6 +114,7 @@ public class LevelController : MonoBehaviour
     IEnumerator GoodHit()
     {
         GoodText.enabled = true;
+        lilyanim.SetBool("goodlily", true);
         yield return new WaitForSeconds(.25f);
         GoodText.enabled = false;
     }
@@ -122,6 +122,7 @@ public class LevelController : MonoBehaviour
     IEnumerator PerfectHit()
     {
         PerfectText.enabled = true;
+        lilyanim.SetBool("perfectlily", true);
         yield return new WaitForSeconds(.25f);
         PerfectText.enabled = false;
     }

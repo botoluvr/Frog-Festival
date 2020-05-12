@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class checkpointVisual : MonoBehaviour
 {
+    //vv calls the checkpoint animator vv
+    public bool Bloom;
+    public Animator anim;
+
     public Image CheckpointUI;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +27,7 @@ public class checkpointVisual : MonoBehaviour
         if (other.tag == "Player")
         {
             CheckpointUI.enabled = true;
+            anim.SetBool("Bloom", true);
         }
     }
     

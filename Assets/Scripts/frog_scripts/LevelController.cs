@@ -18,8 +18,12 @@ public class LevelController : MonoBehaviour
     public AudioSource song3;
     public AudioSource song4;
 
-    public AudioSource goodhitsound;
-    public AudioSource perfecthitsound;
+    //public AudioSource goodhitsound;
+    //public AudioSource perfecthitsound;
+
+    public bool goodlily;
+    public bool perfectlily;
+    public Animator lilyanim;
 
     // bool for outputing and effect depending on the schore
     public bool goodscore;
@@ -27,8 +31,8 @@ public class LevelController : MonoBehaviour
     public Image GoodText;
     public Image PerfectText;
 
-    public Text Tutorial;
-    public Text Tutorial2;
+    //public Text Tutorial;
+    //public Text Tutorial2;
     public int ComboScore;
     public Text CurrentComboScore;
 
@@ -57,6 +61,8 @@ public class LevelController : MonoBehaviour
         sc.enabled = false;
         sc.turn = true;
         myanim.SetBool("turn", false);
+        lilyanim.SetBool("goodlily", false);
+        lilyanim.SetBool("perfectlily", false);
         cs.HasTurn = false;
         cs.alive = false;
         //GET RID OF THE LINE BELOW before enabling the death animation bool
@@ -91,6 +97,7 @@ public class LevelController : MonoBehaviour
             GoodText.enabled = false;
             StartCoroutine(GoodHit());
             ComboScore = 0;
+            lilyanim.SetBool("goodlily", true);
             //goodhitsound.Play();
         }
 
@@ -100,6 +107,7 @@ public class LevelController : MonoBehaviour
             PerfectText.enabled = false;
             StartCoroutine(PerfectHit());
             ComboScore += 1;
+            lilyanim.SetBool("perfectlily", true);
             //perfecthitsound.Play();
         }
     }

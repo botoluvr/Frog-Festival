@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class goodscore : MonoBehaviour
 {
+    public bool goodlily;
+    public bool perfectlily;
+    public Animator anim;
+
     public LevelController LC;
     // Start is called before the first frame update
     void Start()

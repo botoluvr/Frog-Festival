@@ -6,7 +6,7 @@ public class perfectscore : MonoBehaviour
 {
     public bool goodlily;
     public bool perfectlily;
-    public Animator anim;
+    public Animator lilyanim;
 
     public LevelController LC;
     // Start is called before the first frame update
@@ -30,6 +30,7 @@ public class perfectscore : MonoBehaviour
         {
             LC.goodscore = false;
             LC.perfectscore = true;
+            lilyanim.SetBool("perfectlily", true);
         }
     }
 
@@ -40,6 +41,7 @@ public class perfectscore : MonoBehaviour
         {
             LC.goodscore = true;
             LC.perfectscore = false;
+            lilyanim.SetBool("goodlily", true);
         }
     }
 

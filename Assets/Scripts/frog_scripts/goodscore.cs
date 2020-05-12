@@ -6,7 +6,7 @@ public class goodscore : MonoBehaviour
 {
     public bool goodlily;
     public bool perfectlily;
-    public Animator anim;
+    public Animator lilyanim;
 
     public LevelController LC;
     // Start is called before the first frame update
